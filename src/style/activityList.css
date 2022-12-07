@@ -1,0 +1,40 @@
+.activity-list {
+padding-bottom: 10px;
+}
+
+.activity-list__header {
+  list-style: none;
+  padding: 0;
+
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.activity-list__header-item {
+  text-align: center;
+}
+
+.activity-list__main {
+  list-style: none;
+  padding: 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 10px;
+}
+
+.activity-list__main-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.activity-list__main-item-element {
+  text-align: center;
+}
+
+.activity-list__main-item-element > button {
+  background-color: #ffffff;
+  border: none;
+  color: #ff0000;
+}

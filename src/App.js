@@ -1,9 +1,12 @@
 import './App.css';
-import Hex2RGB from './components/Hex2RGB';
+import ActivityAddForm from './components/ActivityAddForm';
+import ActivityList from './components/ActivityList';
 
 function App() {
   return (
     <div className="App">
+      <ActivityAddForm/>
+      <ActivityList/>
     </div>
   );
 }
