@@ -1,12 +1,10 @@
 import './App.css';
-import ActivityAddForm from './components/ActivityAddForm';
-import ActivityList from './components/ActivityList';
+import Activity from './components/Activity';
 
 function App() {
   return (
     <div className="App">
-      <ActivityAddForm/>
-      <ActivityList/>
+      <Activity/>
     </div>
   );
 }

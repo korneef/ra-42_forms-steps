@@ -1,38 +1,42 @@
 .activity-add-form {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: flex-end;
   width: 600px;
   margin: 0 auto;
 }
 
 .activity-add-form__date {
-  flex-grow: 1;
+  width: 150px;
   margin-right: 20px;
 }
 
 .activity-add-form__date-label {
   display: block;
+  text-align: center;
 }
 
 .activity-add-form__date-input {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 .activity-add-form__distance {
-  flex-grow: 1;
   margin-right: 20px;
+  width: 150px;
 }
 
 .activity-add-form__distance-label {
   display: block;
+  text-align: center;
 }
 
 .activity-add-form__distance-input {
   display: block;
   width: 100%;
+  text-align: center;
 }
 
 .activity-add-form__send-activity-button {
